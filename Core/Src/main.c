@@ -141,22 +141,22 @@ int main(void)
 	ssd1306_SetCursor(5,4);
 	ssd1306_WriteString("00:00", 3);
 
-//	HAL_Delay(1000);
-//	i = 255;
-//	do {
-//		i -= 5;
-//		ssd1306_SetContrast(i);
-//		HAL_Delay(20);
-//	} while (i != 0);
-//
-//	HAL_Delay(1000);
-//
-//	do {
-//		i += 5;
-//		ssd1306_SetContrast(i);
-//		HAL_Delay(20);
-//	} while (i < 255);
-//
+	HAL_Delay(1000);
+	i = 255;
+	do {
+		i -= 5;
+		ssd1306_SetContrast(i);
+		HAL_Delay(20);
+	} while (i != 0);
+
+	HAL_Delay(1000);
+
+	do {
+		i += 5;
+		ssd1306_SetContrast(i);
+		HAL_Delay(20);
+	} while (i < 255);
+
 	HAL_Delay(1000);
 	ssd1306_ClearScreen();
 
