@@ -12,3 +12,4 @@ Here is an excellent solution using only 30 Bytes of your MCU RAM.
 The driver can draw four different character sizes: a tiny 5x8, if you need to display a lot of info, a 10x16, which is very readable but still compact, and 15x24 and a 20x32, ideal for clock application.
 
 The demo project uses an STM board NUCLEO F401RE, but it can be easly adapted to different Boards/MCU.
+
